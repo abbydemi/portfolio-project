@@ -48,6 +48,22 @@ p {
   line-height: 1.5;
   color: #272142;
 }
+.about-section {
+  padding: 80px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -71,12 +87,17 @@ p {
 @media (max-width: 900px) {
   h1 {
     font-size: 50px;
-    line-height: 2;
+    line-height: 1.5;
   }
   h2 {
     font-size: 44px;
   }
   .hero {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+  }
+  .about-section {
+    text-align: center;
     padding: 40px 20px;
     margin-bottom: 20px;
   }
