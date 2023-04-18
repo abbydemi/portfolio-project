@@ -109,6 +109,7 @@ footer .contact-box {
   background-color: var(--secondary-color);
   padding: 45px;
   border-radius: 10px;
+  margin: 20px;
 }
 
 footer .email-link {
@@ -135,21 +136,24 @@ footer .social-links a:hover {
 }
 @media (max-width: 900px) {
   h1 {
-    font-size: 50px;
+    font-size: 64px;
     line-height: 1.5;
   }
   h2 {
     font-size: 44px;
   }
   .hero {
-    padding: 40px 20px;
-    margin-bottom: 20px;
+    padding: 80px 20px;
   }
   .content {
     text-align: center;
     padding: 40px 20px;
     margin-bottom: 20px;
   }
+  .content h1 {
+    font-size: 48px;
+  }
+
   .app-description {
     padding: 0;
     text-align: center;
