@@ -24,6 +24,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h3 {
+  font-size: 48px;
+}
 
 p {
   font-size: 16px;
@@ -97,11 +100,39 @@ p {
 .active {
   color: var(--branding-color) !important;
 }
+
 .nav-item {
   padding: 0 20px;
   line-height: 10px;
 }
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 45px;
+  border-radius: 10px;
+}
 
+footer .email-link {
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  margin: 50px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 50px;
