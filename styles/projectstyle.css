@@ -73,7 +73,9 @@ p {
 .content {
   margin: 30px;
 }
-
+.content img {
+  height: 75%;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -97,6 +99,7 @@ p {
 .logo {
   max-height: 60px;
 }
+
 .active {
   color: var(--branding-color) !important;
 }
@@ -136,7 +139,7 @@ footer .social-links a:hover {
 }
 @media (max-width: 900px) {
   h1 {
-    font-size: 64px;
+    font-size: 44px;
     line-height: 1.5;
   }
   h2 {
@@ -147,8 +150,7 @@ footer .social-links a:hover {
   }
   .content {
     text-align: center;
-    padding: 40px 20px;
-    margin-bottom: 20px;
+    padding: 0;
   }
   .content h1 {
     font-size: 48px;
